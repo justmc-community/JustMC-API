@@ -1,0 +1,3 @@
+name: JustMC-API
+main: ru.justmc.api.BukkitPlugin
+version: 1.0-SNAPSHOT
