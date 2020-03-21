@@ -1,8 +1,8 @@
 package ru.justmc.api.user
 
-import com.github.xjcyan1de.cyanlibz.localization.Text
-import com.github.xjcyan1de.cyanlibz.terminable.TerminableConsumer
+import one.cyanpowered.common.terminable.TerminableConsumer
 import ru.justmc.api.sessions.Session
+import ru.justmc.sdk.localization.Text
 import java.util.*
 
 interface User : TerminableConsumer {

@@ -1,9 +1,9 @@
 package ru.justmc.api.auth
 
-import com.github.xjcyan1de.cyanlibz.localization.textOf
-import com.github.xjcyan1de.cyanlibz.terminable.Terminable
+import one.cyanpowered.common.terminable.Terminable
 import ru.justmc.api.authManager
 import ru.justmc.api.user.User
+import ru.justmc.sdk.localization.textOf
 
 abstract class AuthStage(
     var user: User

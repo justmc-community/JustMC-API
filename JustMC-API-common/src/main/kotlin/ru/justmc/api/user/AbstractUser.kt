@@ -1,8 +1,8 @@
 package ru.justmc.api.user
 
-import com.github.xjcyan1de.cyanlibz.localization.Text
-import com.github.xjcyan1de.cyanlibz.terminable.composite.CompositeTerminable
+import one.cyanpowered.common.terminable.composite.CompositeTerminable
 import ru.justmc.api.sessions.Session
+import ru.justmc.sdk.localization.Text
 import java.util.*
 import kotlin.collections.HashMap
 

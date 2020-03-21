@@ -2,7 +2,6 @@
 
 package ru.justmc.api
 
-import com.github.xjcyan1de.cyanlibz.redis.RedisClient
 import kotlinx.coroutines.runBlocking
 import org.jetbrains.exposed.sql.Transaction
 import org.jetbrains.exposed.sql.transactions.experimental.newSuspendedTransaction
@@ -16,7 +15,6 @@ var log: Logger = Logger.getLogger("JustMC")
 lateinit var authManager: AuthManager
 lateinit var userManager: UserManager
 lateinit var databaseManager: DatabaseManager
-lateinit var redisClient: RedisClient
 
 suspend fun <T> sql(statement: suspend Transaction.() -> T) =
     newSuspendedTransaction(db = databaseManager.database, statement = statement)
